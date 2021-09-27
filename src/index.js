@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import GlobalStyles from './styles/GlobalStyle';
 import Typography from './styles/Typography';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/custom.css';
 
 ReactDOM.render(
   <>

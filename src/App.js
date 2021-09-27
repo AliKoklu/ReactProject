@@ -1,10 +1,11 @@
 import React from 'react';
-
+import NavBar from './components/NavBar.js';
+import Footer from './components/Footer.js';
+ 
 export default function App() {
   return (
-    <>
-      <h1>Welcome to react portfolio Project</h1>
-      <h3>-Shaif Arfan</h3>
-    </>
-  );
+  <>
+    <NavBar/>
+    <Footer/>
+  </>);
 }

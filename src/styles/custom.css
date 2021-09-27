@@ -1,0 +1,256 @@
+figcaption {
+  position: absolute;
+  top: 10rem;
+  font-size: 4.5em;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  figcaption {
+    font-size: 1em;
+  }
+}
+
+hr {
+  width: 50%;
+  height: 60px;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 4rem;
+  color: rebeccapurple;
+  background-color: black;
+}
+
+.imageMoveLeft {
+  float: left;
+  margin-right: 0rem;
+  padding-right: 0rem;
+}
+
+.imageleftheightAndWidth {
+  width: 30%;
+  height: 60rem;
+  margin-left: 20%;
+}
+
+.myBackgroundText {
+  position: absolute;
+  font-size: 15px;
+  margin-right: 10%;
+  margin-left: 42%;
+}
+
+@media screen and (max-width: 1502px) {
+  .myBackgroundText {
+    font-size: 10px;
+    margin-left: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .myBackgroundText {
+    font-size: 8px;
+    margin-left: 50%;
+  }
+}
+
+/*Cards and hobies */
+.hobiesText {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(134, 80, 8);
+}
+
+.eachCard {
+  margin-right: 1%;
+  margin-left: 2%;
+  margin-bottom: 10rem;
+  float: left;
+  display: inline;
+}
+
+.cardImage {
+  width: 33rem;
+  height: 35rem;
+}
+
+.cardFooter {
+  display: none;
+  font-size: 20px;
+}
+
+.aforCard:hover + .cardFooter {
+  display: block;
+  position: absolute;
+  color: rgb(235, 17, 17);
+  float: left;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+/* Contact CSS */
+.myContactForm {
+  padding-top: 10rem;
+}
+
+.contactForm {
+  margin-left: 50%;
+}
+
+.contactPageParag {
+  font-size: 30px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.conctactPageInput {
+  width: 300px;
+  height: 40px;
+  font-size: 30px;
+  border: 2px black solid;
+}
+
+.submitButtonContactPage {
+  margin-top: 10px;
+  width: 80px;
+  height: 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(138, 6, 6);
+  border: 1px black solid;
+}
+
+.submitButtonContactPage:hover {
+  background-color: blue;
+  transform: translateY(0) scale(2);
+}
+
+/* Footer CSS */
+.Footer {
+  background-color: rgb(219, 205, 205);
+  margin-top: 20px;
+  float: right;
+  width: 100%;
+  display: flex;
+}
+
+.socialIcon {
+  margin-right: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* About us page*/
+.AbuotUsText {
+  padding-top: 15rem;
+  font-size: 20px;
+  margin-left: 50%;
+}
+
+.aboutUsImage {
+  width: 50rem;
+  height: 55rem;
+  margin-top: 10rem;
+  float: left;
+  position: absolute;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutUsImage {
+    width: 40rem;
+    height: 55rem;
+  }
+
+  .AbuotUsText {
+    padding-top: 15rem;
+    font-size: 20px;
+    margin-left: 50%;
+  }
+}
+.holidayNavbar {
+  border: 3px rgb(151, 118, 118) solid;
+  margin-top: 10px;
+}
+
+.EachRow {
+  font-size: 15px;
+  border: 1px black solid;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.EachRow > td > button {
+  width: 100px;
+  background-color: rgb(26, 108, 146);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 300%;
+}
+
+.CountryAndPrice {
+  margin-left: 40px;
+  font-family: American Typewriter, serif;
+  font-size: 20px;
+}
+
+/* schedule page */
+.ScheduleCards {
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 30px;
+  height: 250px;
+  background-color: rgb(255, 238, 238);
+  text-align: center;
+  float: left;
+}
+
+.scheduleCardImage {
+  margin-top: 40px;
+  border-radius: 50%;
+  width: 30%;
+  height: 50%;
+}
+
+.ScheduleCardText {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler;
+}
+
+.scheduleButton {
+  width: 60px;
+  height: 20px;
+  background-color: rgb(88, 76, 141);
+  text-align: center;
+  margin-left: 30%;
+}
+
+.btn-close {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 10px;
+  background-color: rgb(205, 205, 224);
+}
+
+.btn-close:hover {
+  background-color: rgb(165, 91, 81);
+}
+
+.eachInputInSchedule {
+  margin-bottom: 10px;
+}
+
+.inputsInSchedule {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form {
+  float: right;
+  margin-right: 40%;
+  margin-top: 20px;
+}
